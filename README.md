@@ -4,7 +4,8 @@ A full-stack SaaS-style web application that generates professional, ready-to-se
 
 This project demonstrates real-world architecture with a secure backend, dynamic prompt engineering, production deployment, and a polished frontend UI.
 
----
+## 🔗 Live Demo
+https://ai-coverletter-generator.onrender.com
 
 ## 🚀 Features
 
@@ -16,8 +17,6 @@ This project demonstrates real-world architecture with a secure backend, dynamic
 - 🌐 Production-ready deployment  
 - 📁 Clean frontend/backend separation  
 - 🛡️ Git-safe secrets with `.gitignore`
-
----
 
 ## 🛠️ Tech Stack
 
@@ -59,6 +58,7 @@ GEMINI_API_KEY=your_api_key_here
 
 ⚠️ Never commit `.env` files to GitHub.
 
+
 ## 🧪 Run Locally
 
 ### 1. Clone the repository
@@ -83,7 +83,7 @@ npm start
 
 ```
 
-***The server will run at:***
+***The server will run***
 
 http://localhost:5000
 
