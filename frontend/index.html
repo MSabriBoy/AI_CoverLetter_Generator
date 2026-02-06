@@ -1,0 +1,71 @@
+<!-- AI Cover Letter Generator -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Cover Letter Generator</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="/images/favicon.ico">
+
+</head>
+
+<body>
+    <div class="page-container">
+        <div class="form-card">
+            <h1>AI Cover Letter Generator</h1>
+            <form id="cover-form">
+
+                <div class="form-group">
+                    <label class="form-label" for="candidate-name">
+                        Candidate Name
+                    </label>
+                    <input type="text" id="candidate-name" class="form-input" placeholder="Enter your full name"
+                        required />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="job-role">
+                        Job Role
+                    </label>
+                    <input type="text" id="job-role" class="form-input"
+                        placeholder="Frontend Developer, Data Analyst..." required />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="company-name">
+                        Company Name
+                    </label>
+                    <input type="text" id="company-name" class="form-input" placeholder="Google, Infosys..." required />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="key-skills">
+                        Key Skills
+                    </label>
+                    <div class="skills-wrapper">
+                        <div id="skills-container"></div>
+                    <input type="text" id="key-skills" class="form-input" placeholder="React, JavaScript, SQL..."
+                        required />
+                </div>
+                <ul id="suggestions-list" class="suggestions"></ul>
+                </div>
+
+                <button type="submit" id="generate-btn" class="generate-btn">
+                    Generate Cover Letter ⚡
+                </button>
+
+            </form>
+        </div>
+
+        <div class="output-container hidden">
+            <pre id="output-box"></pre>
+            <button id ="copy-btn">Copy to Clipboard</button>
+        </div>
+
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
