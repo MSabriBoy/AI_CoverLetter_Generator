@@ -78,10 +78,10 @@ npm install
 ### 3. Adjust the fetch path in frontend/js/script.js if want to run locally
 
 ***From***
-const res = await fetch("/api/generate",{...});
+- const res = await fetch("/api/generate",{...});
 
 ***to***
-const res = await fetch("http://localhost:5000/api/generate",{...}); 
+- const res = await fetch("http://localhost:5000/api/generate",{...}); 
 
 ### 4. Start the Server
 
