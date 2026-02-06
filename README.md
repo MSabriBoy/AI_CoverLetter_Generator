@@ -75,19 +75,26 @@ cd backend
 npm install
 
 ```
+### 3. Adjust the fetch path in frontend/js/script.js if want to run locally
 
-### 3. Start the Server
+***From***
+const res = await fetch("/api/generate",{...});
+
+***to***
+const res = await fetch("http://localhost:5000/api/generate",{...}); 
+
+### 4. Start the Server
 
 ```bash
 npm start
 
 ```
 
-***The server will run***
+***The server will run locally***
 
 http://localhost:5000
-
-### 4. Open in browser
+  
+### 5. Open in browser
 
 Visit:
 
