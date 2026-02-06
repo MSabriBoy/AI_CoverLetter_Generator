@@ -34,8 +34,20 @@ This project demonstrates real-world architecture with a secure backend, dynamic
 **Deployment**
 - Render  
 
-## Screenshots
+## 📸 Screenshots
 
+### Desktop Views
+<p align="center">
+  <img src="./frontend/images/screenshorts/pic1.jpeg" width="700"/>
+</p>
+<p align="center">
+  <img src="./frontend/images/screenshorts/pic2.jpeg" width="700"/>
+</p>
+
+### Mobile View
+<p align="center">
+  <img src="./frontend/images/screenshorts/mobile-view.jpeg" width="350"/>
+</p>
 
 
 ## ⚙️ Environment Setup
@@ -47,8 +59,6 @@ GEMINI_API_KEY=your_api_key_here
 
 ⚠️ Never commit `.env` files to GitHub.
 
----
-
 ## 🧪 Run Locally
 
 ### 1. Clone the repository
@@ -59,12 +69,19 @@ git clone <https://github.com/MSabriBoy/AI_CoverLetter_Generator.git >
 ```
 ### 2. Install backend dependencies
 
+```bash
 cd backend
+
 npm install
+
+```
 
 ### 3. Start the Server
 
+```bash
 npm start
+
+```
 
 ***The server will run at:***
 
